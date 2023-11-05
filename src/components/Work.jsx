@@ -1,5 +1,7 @@
 import React from "react";
 import AgencyImg from "../assets/projects/AgencyImg.jpeg";
+import EcommerceImg from "../assets/projects/EcommerceImg.jpeg";
+import NoteImg from "../assets/projects/NoteImg.jpeg";
 
 const Work = () => {
   return (
@@ -21,52 +23,6 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white">
-                React-JS Agency website
-              </span>
-              <div className="flex justify-center items-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${AgencyImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-2xl font-bold text-white">
-                React-JS Agency website
-              </span>
-              <div className="flex justify-center items-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${AgencyImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-2xl font-bold text-white">
                 React-JS agency website
               </span>
               <div className="flex justify-center items-center">
@@ -75,7 +31,53 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Sangamgrg/react-js-website.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${EcommerceImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl text-center font-bold text-white">
+                Ecommerce website
+              </span>
+              <div className="flex justify-center items-center">
+                <a href="https://sangamgrg.github.io/Ecommerce-website/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Sangamgrg/Ecommerce-website.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${NoteImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font-bold text-white">
+                React Note App
+              </span>
+              <div className="flex justify-center items-center">
+                <a href="https://react-movie-app-blush.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Sangamgrg/react-note-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

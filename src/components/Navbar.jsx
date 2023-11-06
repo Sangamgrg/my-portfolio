@@ -55,11 +55,51 @@ const Navbar = () => {
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center"
         }>
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contacts</li>
+        <li>
+          <Link
+            className="py-6 text-4xl"
+            to="hero"
+            smooth={true}
+            duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="py-6 text-4xl"
+            to="about"
+            smooth={true}
+            duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="py-6 text-4xl"
+            to="skills"
+            smooth={true}
+            duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="py-6 text-4xl"
+            to="work"
+            smooth={true}
+            duration={500}>
+            MyWork
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="py-6 text-4xl"
+            to="contact"
+            smooth={true}
+            duration={500}>
+            ContactMe
+          </Link>
+        </li>
       </ul>
 
       {/* Social icons */}
@@ -67,21 +107,21 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center -ml-[100px] hover:-ml-[10px] transition-all duration-300 bg-blue-600">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/sangam-gurung-537977141"
               className="flex justify-between items-center w-full text-gray-300">
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center -ml-[100px] hover:-ml-[10px] transition-all duration-300 bg-[#333333]">
             <a
-              href="/"
+              href="https://github.com/Sangamgrg"
               className="flex justify-between items-center w-full text-gray-300">
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center -ml-[100px] hover:-ml-[10px] transition-all duration-300 bg-[#6fc2b0]">
             <a
-              href="/"
+              href="mailto:sangamgrg89@gmail.com?subject = Feedback&body = Message"
               className="flex justify-between items-center w-full text-gray-300">
               Email <HiOutlineMail size={30} />
             </a>

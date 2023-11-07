@@ -44,63 +44,51 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger menu */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center"
-        }>
-        <li>
-          <Link
-            className="py-6 text-4xl"
-            to="hero"
-            smooth={true}
-            duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="py-6 text-4xl"
-            to="about"
-            smooth={true}
-            duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="py-6 text-4xl"
-            to="skills"
-            smooth={true}
-            duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="py-6 text-4xl"
-            to="work"
-            smooth={true}
-            duration={500}>
-            MyWork
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="py-6 text-4xl"
-            to="contact"
-            smooth={true}
-            duration={500}>
-            ContactMe
-          </Link>
-        </li>
-      </ul>
+      <div
+        className={`space-y-4 px-4 mt-16 py-7 bg-base ${
+          !nav ? "hidden" : "block fixed top-0 right-0 left-0"
+        }`}>
+        <Link
+          to="hero"
+          smooth={true}
+          duration={500}
+          className="block text-base text-gray-300 hover:text-primary">
+          Home
+        </Link>
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          className="block text-base text-gray-300 hover:text-primary ">
+          About
+        </Link>
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          className="block text-base text-gray-300 hover:text-primary ">
+          Skills
+        </Link>
+        <Link
+          to="work"
+          smooth={true}
+          duration={500}
+          className="block text-base text-gray-300 hover:text-primary ">
+          MyWork
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="block text-base text-gray-300 hover:text-primary ">
+          ContactMe
+        </Link>
+      </div>
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-gray-300">
       <div>
-        <img src={Logo} alt="Logo image" className="w-1/3" />
+        <img src={Logo} alt="Logo image" className="h-[80px]" />
       </div>
       {/* menu items */}
 

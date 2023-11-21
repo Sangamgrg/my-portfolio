@@ -32,7 +32,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/mern-book-front.git">
+                <a href="https://github.com/Sangamgrg/mern-book-project.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

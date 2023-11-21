@@ -2,6 +2,7 @@ import React from "react";
 import AgencyImg from "../assets/projects/AgencyImg.jpeg";
 import EcommerceImg from "../assets/projects/EcommerceImg.jpeg";
 import NoteImg from "../assets/projects/NoteImg.jpeg";
+import BookImg from "../assets/projects/MERN_BookImg.jpeg";
 
 const Work = () => {
   return (
@@ -18,12 +19,35 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid items */}
           <div
+            style={{ backgroundImage: `url(${BookImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 ">
+              <span className="text-2xl font-bold text-white">
+                MERN Book Inventory
+              </span>
+              <div className="flex justify-center items-center">
+                <a href="https://mern-book-front-aqjc.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Sangamgrg/mern-book-front.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
             style={{ backgroundImage: `url(${AgencyImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white">
-                React-JS agency website
+                Agency Landing Page
               </span>
               <div className="flex justify-center items-center">
                 <a href="https://react-js-website.vercel.app/">
@@ -46,7 +70,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl text-center font-bold text-white">
-                Ecommerce website
+                Ecommerce Landing Page
               </span>
               <div className="flex justify-center items-center">
                 <a href="https://sangamgrg.github.io/Ecommerce-website/">

@@ -7,6 +7,7 @@ import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import NodeImg from "../assets/node.png";
 import MongoImg from "../assets/mongo.png";
+import JestImg from "../assets/Jest.png";
 
 const Skills = () => {
   return (
@@ -42,7 +43,7 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={NodeImg} className="w-20 mx-auto" alt="Tailwind icon" />
+            <img src={NodeImg} className="w-20 mx-auto" alt="Node icon" />
             <p className="my-4">Node</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -56,6 +57,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img src={Tailwind} className="w-20 mx-auto" alt="Tailwind icon" />
             <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img src={JestImg} className="w-20 mx-auto" alt="Jest icon" />
+            <p className="my-4">JEST</p>
           </div>
         </div>
       </div>

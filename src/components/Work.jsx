@@ -27,12 +27,12 @@ const Work = () => {
                 MERN Book Inventory
               </span>
               <div className="flex justify-center items-center">
-                <a href="https://mern-book-front-aqjc.vercel.app/">
+                <a href="https://mern-book-front-aqjc.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/mern-book-project.git">
+                <a href="https://github.com/Sangamgrg/mern-book-project.git" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -50,12 +50,12 @@ const Work = () => {
                 Agency Landing Page
               </span>
               <div className="flex justify-center items-center">
-                <a href="https://react-js-website.vercel.app/">
+                <a href="https://react-js-website.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/react-js-website.git">
+                <a href="https://github.com/Sangamgrg/react-js-website.git" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -73,12 +73,12 @@ const Work = () => {
                 Ecommerce Landing Page
               </span>
               <div className="flex justify-center items-center">
-                <a href="https://sangamgrg.github.io/Ecommerce-website/">
+                <a href="https://sangamgrg.github.io/Ecommerce-website/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/Ecommerce-website.git">
+                <a href="https://github.com/Sangamgrg/Ecommerce-website.git" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -96,12 +96,12 @@ const Work = () => {
                 React Note App
               </span>
               <div className="flex justify-center items-center">
-                <a href="https://react-movie-app-blush.vercel.app/">
+                <a href="https://react-movie-app-blush.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/react-note-app">
+                <a href="https://github.com/Sangamgrg/react-note-app" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

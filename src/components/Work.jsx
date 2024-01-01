@@ -26,11 +26,11 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ">
-              <span className="text-2xl font-bold text-white">
-                Full stack Doctor appoinment
+              <span className="text-2xl text-center font-bold text-white">
+                MERN Doctor appoinment
               </span>
               <div className="flex justify-center items-center">
-                <a href="mern-doctor-booking.vercel.app">
+                <a href="https://mern-doctor-booking.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>

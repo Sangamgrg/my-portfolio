@@ -30,12 +30,12 @@ const Work = () => {
                 MERN Doctor appoinment
               </span>
               <div className="flex justify-center items-center">
-                <a href="https://mern-doctor-booking.vercel.app/">
+                <a href="https://mern-doctor-booking.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Sangamgrg/mern-doctor-booking">
+                <a href="https://github.com/Sangamgrg/mern-doctor-booking" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
